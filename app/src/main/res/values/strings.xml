@@ -19,16 +19,19 @@
     <string name="sing_up">Sing Up</string>
     <string name="forget_password">Forget Password</string>
     <string name="sing_in">Sing In</string>
+
+    //registre
     <string name="nombre">Name</string>
     <string name="ingrese_su_correo">enter your email</string>
     <string name="apellidos">Surnames</string>
     <string name="string_peso" />
-    <string name="_01_01_1999">01/01/1999</string>
+    <string name="date">01/01/1999</string>
     <string name="altura">height</string>
     <string name="peso">weight</string>
     <string name="ingrese_su_password">Enter your password</string>
     <string name="aceptar_terminos_y_condiciones">Accept terms and conditions</string>
-    <string name="enviar">Send</string>
+    <string name="ButtonSend">Send</string>
+
     <string name="hora">Time</string>
     <string name="fecha">Date</string>
     <string name="buttonMas">+</string>
@@ -41,4 +44,6 @@
     <string name="s">S:</string>
     <string name="results_report">Results Report</string>
     <string name="edit_perfil">Edit Profile</string>
+    <string name="_01_01_1999">_01_01_1999</string>
+    <string name="send">Send</string>
 </resources>

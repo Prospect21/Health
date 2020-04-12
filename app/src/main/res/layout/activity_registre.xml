@@ -33,7 +33,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageLogo">
 
             <EditText
-                android:id="@+id/editText9"
+                android:id="@+id/nombre"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -44,7 +44,7 @@
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText6"
+                android:id="@+id/ingrese_su_correo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -55,7 +55,7 @@
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText10"
+                android:id="@+id/apellidos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -66,7 +66,7 @@
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText15"
+                android:id="@+id/peso"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -77,7 +77,7 @@
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText16"
+                android:id="@+id/altura"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -88,19 +88,19 @@
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText11"
+                android:id="@+id/date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
                 android:ems="10"
                 android:gravity="start|top"
-                android:hint="@string/_01_01_1999"
-                android:inputType="textMultiLine"
+                android:hint="01/01/1999"
+                android:inputType="date"
                 tools:ignore="LabelFor"
                 tools:targetApi="o" />
 
             <EditText
-                android:id="@+id/editText8"
+                android:id="@+id/ingrese_su_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:autofillHints=""
@@ -116,7 +116,7 @@
                 android:orientation="horizontal">
 
                 <CheckBox
-                    android:id="@+id/checkBoxT"
+                    android:id="@+id/aceptar_terminos_y_condiciones"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -130,12 +130,11 @@
 
 
         <Button
-            android:id="@+id/buttonEnviar"
+            android:id="@+id/ButtonSendRegister"
             android:layout_width="274dp"
             android:layout_height="40dp"
             android:background="@drawable/bk_boton_plano"
-            android:onClick="return0"
-            android:text="@string/enviar"
+            android:text="@string/send"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"

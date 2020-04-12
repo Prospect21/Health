@@ -49,7 +49,7 @@ public class Login extends AppCompatActivity {
         mEditTextPassword = (EditText) findViewById(R.id.editPass);
         mButtonRegister = (Button) findViewById(R.id.buttonSingup);
 
-        mButtonRegister.setOnClickListener(new View.OnClickListener(){
+        /*mButtonRegister.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 name = mEdiTextUser.getText().toString();
@@ -58,10 +58,16 @@ public class Login extends AppCompatActivity {
 
                 registerUser();
             }
-        });
+        });*/
     }
 
-    private void registerUser(){
+    //Results Screen
+    public void Registro(View v) {
+        Intent Registro = new Intent(this, Registre.class);
+        startActivity(Registro);
+    }
+
+    /*private void registerUser(){
         mAuth.createUserWithEmailAndPassword(name, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -78,9 +84,12 @@ public class Login extends AppCompatActivity {
                             if(task2.isSuccessful()){
                                 startActivity(new Intent(Login.this, MainActivity.class ));
                                 Log.d("myTag", "Su registro ha sido exitoso");
+                                Toast.makeText( Login.this, "Su registro ha sido exitoso", Toast.LENGTH_SHORT).show();
+
                                 finish();
                             }else{
                                 Log.d("myTag", "EL rgistro fallo");
+                                Toast.makeText( Login.this, "EL rgistro fallo", Toast.LENGTH_SHORT).show();
 
                             }
                         }
@@ -93,6 +102,6 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
-    }
+    }*/
 
 }
